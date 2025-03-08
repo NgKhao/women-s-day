@@ -24,15 +24,15 @@ document.addEventListener("DOMContentLoaded", function () {
   // Gallery images
   const images = [
     {
-      url: "/uploads/z6387054837121_5fd5ed3a129986d4ce29b7db7287da78.jpg",
+      url: "./uploads/z6387054837121_5fd5ed3a129986d4ce29b7db7287da78.jpg",
       caption: "Vẻ đẹp tự nhiên như những bông hoa",
     },
     {
-      url: "/uploads/z6387054837146_cb81b03464f7094f6ee2377bed0f7aaa.jpg",
+      url: "./uploads/z6387054837146_cb81b03464f7094f6ee2377bed0f7aaa.jpg",
       caption: "Tỏa sáng trong mọi khoảnh khắc",
     },
     {
-      url: "/uploads/z6387054837147_7f9932a17699a227293afb3c57c29868.jpg",
+      url: "./uploads/z6387054837147_7f9932a17699a227293afb3c57c29868.jpg",
       caption: "Nụ cười rạng rỡ như ánh nắng",
     },
   ];
