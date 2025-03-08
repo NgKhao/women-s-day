@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chúc mừng ngày 8/3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Login Form -->
+  <div class="login-container" id="loginContainer">
+    <div class="login-form">
+      <h2 class="login-title">Người đẹp gọi tôi là gì?</h2>
+      <input type="text" class="login-input" id="passwordInput" placeholder="Nhập câu trả lời...">
+      <button class="login-button" id="loginButton">Xác nhận</button>
+      <div class="login-message" id="loginMessage"></div>
+    </div>
+  </div>
+
+  <!-- Success Animation -->
+  <div class="success-animation" id="successAnimation">
+    <div class="success-box">
+      <div class="success-icon">🌸</div>
+      <div class="success-message">Chúc mừng bạn đã trả lời chính xác, cứ gọi anh là sẽ được thưởng!</div>
+      <button class="continue-button" id="continueButton">Tiếp tục</button>
+    </div>
+  </div>
+
+  <!-- Main Content (Hidden initially) -->
+  <div class="container hidden" id="mainContent">
+
+    <header>
+      <span class="flower">🌸</span>
+      <span class="flower">🌹</span>
+      <span class="flower">🌺</span>
+      <span class="flower">🌷</span>
+      <h1>Chúc Mừng Ngày Quốc Tế Phụ Nữ 8/3</h1>
+      <p class="subtitle">Gửi đến 3 chị em Sở Tây!</p>
+    </header>
+
+    <div class="wishes" id="wishes">
+      <p id="wish1">Nhân ngày 8/3, xin chúc các bạn luôn này nọ các thứ.</p>
+      <p id="wish2">Không những 8/3, mà những ngày khác cũng vậy.</p>
+      <p id="wish3">Mãi mãi xinh tươi, yêu đời ngập tràn. <br>
+        Trí tuệ thông minh, tài năng tỏa sáng, <br>
+        Cuộc sống hạnh phúc, tình yêu vẹn toàn.!</p>
+      <div id="typingLoader" class="typing-loader">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div class="gallery" id="gallery">
+      <!-- Gallery images will be added by JavaScript -->
+    </div>
+
+    <footer>
+      <p>Ngày 8 tháng 3, 2025</p>
+    </footer>
+
+    <!-- Hearts Animation Container -->
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <!-- Modal for full image view -->
+    <div class="modal" id="imageModal">
+      <span class="close-button" id="closeModal">&times;</span>
+      <img class="modal-content" id="modalImage">
+    </div>
+
+    <!-- Audio Control -->
+    <button class="audio-control" id="audioControl">
+      <span id="audioIcon">🔊</span>
+    </button>
+    <div class="flowers-container" id="flowersContainer"></div>
+    Apply
+
+  </div>
+
+  <div id="player"></div>
+  <button id="audioControl"></button>
+
+  <script src="script.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+
+</body>
